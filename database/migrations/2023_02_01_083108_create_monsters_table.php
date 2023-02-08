@@ -19,9 +19,9 @@ return new class extends Migration
             $table->string("species");
             $table->string("type")->nullable();
             $table->string("color")->nullable();
-            $table->string("description");
+            $table->text("description");
             $table->string("img_url");
-            $table->string("loots")->nullable();
+            $table->text("loots")->nullable();
             $table->string("biome");
             $table->timestamps();
         });
