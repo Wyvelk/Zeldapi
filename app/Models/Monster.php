@@ -13,4 +13,5 @@ class Monster extends Model
         'name', 'species', 'type', 'color', 'description', 'img_url', "loots", "biome"
     ];
     public $timestamps = false;
+
 }
